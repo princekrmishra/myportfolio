@@ -40,8 +40,6 @@ import davLogo from './assets/education_logo/dav.png';
 
 
 // Project Section Logo's
-
-
 import martLogo from './assets/mishramart.png'
 import umsLogo from './assets/ums.png'
 import mazeLogo from './assets/maze.png'
