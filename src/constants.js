@@ -145,7 +145,7 @@ export const SkillsInfo = [
       image: martLogo,
       tags: ["React.js", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express.js", "Mongoose", "MongoDB", "Razorpay"],
       github: "https://github.com/princekrmishra/E-Commerce-Website-MERN",
-      webapp: "https://mishramarttest.netlify.app/",
+      webapp: "https://mishra-mart.vercel.app/",
     },
     {
       id: 1,
