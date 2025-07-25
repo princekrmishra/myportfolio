@@ -46,7 +46,7 @@ import mazeLogo from './assets/maze.png'
 import passLogo from './assets/passwordgenerator.png';
 import imgLogo from './assets/galary.png';
 import todoLogo from './assets/todo.png';
-
+import instaLogo from './assets/instasite.png'
 
 export const SkillsInfo = [
   {
@@ -137,6 +137,16 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+    {
+      id: 6,
+      title: "InstaSite",
+      description:
+        "SnapVault is a responsive and interactive image gallery web application developed using vanilla JavaScript, HTML, and CSS. It allows users to explore a curated collection of images with smooth UI transitions, hover effects, and grid-based layout. The gallery adapts to different screen sizes for an optimal user experience across devices. This project demonstrates frontend design skills, DOM manipulation, and dynamic content rendering without the use of any frameworks or libraries.",
+      image: instaLogo,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/princekrmishra/Image-Gallary",
+      webapp: "https://princekrmishra.github.io/Image-Gallary/",
+    },
     {
       id: 0,
       title: "Mishra Mart - E-Commerce (MERN, Authentication, Payment)",
