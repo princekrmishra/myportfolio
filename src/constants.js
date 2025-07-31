@@ -138,17 +138,17 @@ export const SkillsInfo = [
   
   export const projects = [
     {
-      id: 6,
+      id: 0,
       title: "InstaSite",
       description:
-        "SnapVault is a responsive and interactive image gallery web application developed using vanilla JavaScript, HTML, and CSS. It allows users to explore a curated collection of images with smooth UI transitions, hover effects, and grid-based layout. The gallery adapts to different screen sizes for an optimal user experience across devices. This project demonstrates frontend design skills, DOM manipulation, and dynamic content rendering without the use of any frameworks or libraries.",
+        "InstaSite is a SaaS platform I built to make the process of starting web projects faster and easier. It lets users instantly generate complete, ready-to-use project setups based on popular tech stacks like Node.js, React, or full-stack combos. Instead of spending hours setting up folder structures, configuring databases, and integrating services, InstaSite does it all in a few clicks. It uses Next.js 14 for the frontend, Clerk for user authentication, Neon for PostgreSQL hosting, Uploadcare for file uploads, Stripe for payments, and Bun for fast performance. The platform also supports one-click deployment, live previews through Ngrok, and even sets up API routes and database schemas. Developers can create accounts, pick their stack, customize settings, and get production-ready code instantly. It's perfect for building MVPs, client projects, or internal tools—especially for freelancers, startups, and teams who want to save time and skip the boring setup work.",
       image: instaLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/princekrmishra/Image-Gallary",
-      webapp: "https://princekrmishra.github.io/Image-Gallary/",
+      tags: ["React", "Next.js", "JavaScript", "Node.js", "Convex DB", "PayPal", "Gemini API", "OAuth", "shadcn/ui", "Lucide React", "Sandpack", "GitHub", "Vercel", "REST API", "API Routing", "Webhooks", "SaaS"],
+      github: "https://github.com/princekrmishra/instasite",
+      webapp: "https://instasite-ai.vercel.app/",
     },
     {
-      id: 0,
+      id: 1,
       title: "Mishra Mart - E-Commerce (MERN, Authentication, Payment)",
       description:
         "Mishra Mart is a fully functional MERN-stack e-commerce application designed to deliver a seamless online shopping experience. It features user authentication with JWT, secure role-based access for admins and users, dynamic product management, real-time cart updates, and Stripe integration for safe and smooth payment processing. The platform supports responsive UI built with Tailwind CSS, admin dashboard for inventory control, and order tracking for customers. This project showcases my skills in full-stack development, RESTful API design, secure authentication flows, and integration of third-party payment systems.",
@@ -158,7 +158,7 @@ export const SkillsInfo = [
       webapp: "https://mishra-mart.vercel.app/",
     },
     {
-      id: 1,
+      id: 2,
       title: "University Management System",
       description:
         "The University Management System is a frontend-only web application developed using React.js to simulate the academic workflows of a university. It features responsive UI components for managing students, faculty, departments, and course information. The system supports dynamic routing using React Router and utilizes Context API for efficient state management across components. Tailwind CSS is used for fast and consistent UI styling. This project demonstrates proficiency in building structured, modular React applications and designing intuitive interfaces for academic record handling.",
@@ -168,7 +168,7 @@ export const SkillsInfo = [
       webapp: "https://princekrmishra.github.io/University-Management-System/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Maze Solver Visualizer – Pathfinding Algorithm Simulation",
       description:
         "Maze Solver Visualizer is a web-based interactive tool developed using vanilla JavaScript to demonstrate the working of pathfinding algorithms in a grid-based maze. Users can create custom walls, set starting and ending points, and visualize how algorithms like BFS (Breadth-First Search) and DFS (Depth-First Search) navigate through obstacles to find the shortest path. The application features smooth animations, intuitive controls, and real-time feedback, making it an educational and engaging tool for understanding graph traversal techniques. This project highlights strong problem-solving skills, algorithmic thinking, and frontend development using core web technologies.",
@@ -178,7 +178,7 @@ export const SkillsInfo = [
       webapp: "https://princekrmishra.github.io/MazeSolver/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Todo List App – Task Management Tool",
       description:
         "Todo List App is a lightweight task management tool built using vanilla JavaScript. It allows users to add, delete, and mark tasks as completed in a simple and responsive interface. The application leverages LocalStorage to persist data across sessions, ensuring that tasks remain saved even after the browser is closed. With clean UI and functional logic, this project demonstrates core JavaScript concepts such as DOM manipulation, event handling, and local data persistence—making it a solid example of building dynamic web applications without any external libraries or frameworks.",
@@ -188,7 +188,7 @@ export const SkillsInfo = [
       webapp: "https://princekrmishra.github.io/Todo-List-App/",
     },
     {
-      id: 4,
+      id: 5,
       title: "SecurePass – Random Password Generator",
       description:
         "SecurePass is a web-based password generator built using vanilla JavaScript that allows users to create strong, secure, and customizable passwords with just one click. The application supports user-defined criteria such as including uppercase letters, lowercase letters, numbers, and special characters, ensuring flexible and robust password creation. It also features clipboard copy functionality for ease of use. This project highlights your understanding of core JavaScript logic, DOM manipulation, event handling, and basic UI/UX design principles.",
@@ -198,7 +198,7 @@ export const SkillsInfo = [
       webapp: "https://princekrmishra.github.io/Password-Generator/",
     },
     {
-      id: 5,
+      id: 6,
       title: "SnapVault – Interactive Image Gallery",
       description:
         "SnapVault is a responsive and interactive image gallery web application developed using vanilla JavaScript, HTML, and CSS. It allows users to explore a curated collection of images with smooth UI transitions, hover effects, and grid-based layout. The gallery adapts to different screen sizes for an optimal user experience across devices. This project demonstrates frontend design skills, DOM manipulation, and dynamic content rendering without the use of any frameworks or libraries.",
